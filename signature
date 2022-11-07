@@ -23,4 +23,4 @@ echo "  :K#t     ##D.    E#t :K#K:   L##, E#t  ;#W:  j#t          .D#;    t#E   
 echo "  ...      #G      .. ;##D.    L##, DWi   ,KK:  ,;            tt     fE         .G#t     t            .G#t DWi   ,KK:        tt        tt ..         G#E "
 echo "           j          ,,,      .,,                                    :           ;;                    ;;                                            fE "
 echo "                                                                                                                                                       , "
-echo -e "$reset$bold$merah====================>>($hijau https://github.com/mggnet $merah)<<===================$reset\n"
+echo -e "$reset$bold$kuning====================>>($merah https://github.com/mggnet $kuning)<<===================$reset\n"
