@@ -50,7 +50,7 @@ also save all data from left side, Account Name, Server Name, Server IP, Public 
 
 ## Auto installation 
 ```
-wget -O inery.sh https://raw.githubusercontent.com/mggnet/testnet/tree/main/INERY/inery.sh && bash inery.sh
+wget -O inery.sh https://raw.githubusercontent.com/mggnet/testnet/main/INERY/inery.sh && bash inery.sh
 ```
 
 ### Post installation
