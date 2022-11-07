@@ -9,7 +9,7 @@ bold="\e[1m"
 italic="\e[3m"
 reset="\e[m"
 # logo
-curl -s https://raw.githubusercontent.com/mggnet/testnet/main/signature | bash
+curl -s https://raw.githubusercontent.com/Agus1224/NODE_TESTNET/main/logo_ALFONOVA | bash
 sleep 2
 # Env Vars
 cd $HOME
@@ -283,6 +283,9 @@ setsid ./ine.py --master >/dev/null 2>&1 &
 }
 
 while true; do
+# logo
+
+curl -s https://raw.githubusercontent.com/jambulmerah/guide-testnet/main/script/logo.sh | bash
 
 # Menu
 
@@ -445,7 +448,7 @@ read
 clear
 break;;
 
-"Exit") clear; echo -e "$biru\t GOOD BYE👋$reset"; sleep 1; exit;;
+"Exit") clear; echo -e "$biru\t GOOD BY👋$reset"; sleep 1; exit;;
 
 "Delete and uninstall node") # Full delete and uninstall
 clear
