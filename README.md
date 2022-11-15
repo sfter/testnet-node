@@ -4,6 +4,7 @@ Also Check Auto Delegator i Posted
 >- [Auto Delegator Empower](https://github.com/mggnet/auto-delegate-empower)
 >- [Auto Delegator Nibiru](https://github.com/mggnet/auto-delegate-nibiru)
 >- [Auto Delegator Loyal](https://github.com/mggnet/auto-delegate-loyal)
+>- [Auto Delegator Gitopia](https://github.com/mggnet/auto-delegate-gitopia)
 
 Follow Me on : <br>
 Twitter : https://twitter.com/marketgogreen <br>
