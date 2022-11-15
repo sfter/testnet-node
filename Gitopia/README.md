@@ -34,6 +34,7 @@ Make sure "cactching_up": false
 wget -O gitop https://raw.githubusercontent.com/mggnet/testnet/main/Gitopia/gitop && chmod +x gitop && ./gitop
 ```
 ### Type 2
+DON'T FORGET TO SAVE YOUR WALLET ⚠
 i Recommend u to use "wallet" as a wallet name , so it will easily to configure <br>
 keyring pharse is your password for your Gitopia node
 
