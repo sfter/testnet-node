@@ -42,18 +42,17 @@ keyring pharse is your password for your Gitopia node
 DON'T DO THIS IF NODE NOT FULLY SYNCED YET ‼‼‼‼
 ```bash
 gitopiad tx staking create-validator \
-  --amount 1000000ujkl \
-  --from <walletName> \
-  --commission-max-change-rate "0.1" \
-  --commission-max-rate "0.2" \
-  --commission-rate "0.1" \
-  --min-self-delegation "1" \
-  --pubkey  $(gitopiad tendermint show-validator) \
-  --moniker STAVRguide \
-  --chain-id gitopia-janus-testnet-2 \
-  --identity="" \
-  --details="" \
-  --website="" -y
+--amount=1000000utlore \
+--pubkey=$(gitopiad tendermint show-validator) \
+--moniker="YOUR_NODE_NAME" \
+--chain-id=gitopia-janus-testnet-2 \
+--commission-rate="0.1" \
+--commission-max-rate="0.20" \
+--commission-max-change-rate="0.01" \
+--min-self-delegation="1" \
+--from=wallet \
+--fees=10000utlore \
+-y 
 ```
 
 ## Delete node
