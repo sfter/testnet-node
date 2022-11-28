@@ -17,7 +17,7 @@ if [[ $(lsof -i :8078,30333 | grep LISTEN) ]]; then
     exit 1
 fi
 
-echo -e "\e[1;32m\tChainflip node validator installation with infura and alchemi api by jambulmerah\e[m"
+echo -e "\e[1;32m\tChainflip node validator automatic installation marketgogreen\e[m"
 sleep 2
 # [1/7] update upgrade
 clear
