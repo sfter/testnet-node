@@ -1,6 +1,6 @@
 #!/bin/bash
 # Get logo
-curl -s https://raw.githubusercontent.com/mggnet/testnet/main/signature | bash | bash
+curl -s https://raw.githubusercontent.com/mggnet/testnet/main/signature | bash
 # Check root user
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
     echo -e "\e[31;1mAborting\e[m: Please run as root user!"
