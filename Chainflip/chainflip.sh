@@ -1,6 +1,6 @@
 #!/bin/bash
 # Get logo
-curl -s https://raw.githubusercontent.com/mggnet/testnet/main/signature | bash
+curl -s https://raw.githubusercontent.com/jambulmerah/guide-testnet/main/script/logo.sh | bash
 # Check root user
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
     echo -e "\e[31;1mAborting\e[m: Please run as root user!"
@@ -17,7 +17,7 @@ if [[ $(lsof -i :8078,30333 | grep LISTEN) ]]; then
     exit 1
 fi
 
-echo -e "\e[1;32m\tChainflip node validator automation installation @marketgogreen\e[m"
+echo -e "\e[1;32m\tChainflip node validator installation with infura and alchemi api by jambulmerah\e[m"
 sleep 2
 # [1/7] update upgrade
 clear
@@ -245,7 +245,7 @@ fi
 clear
 
 # [7/7] Finished
-curl -s https://raw.githubusercontent.com/mggnet/testnet/main/signature | bash | bash
+curl -s https://raw.githubusercontent.com/jambulmerah/guide-testnet/main/script/logo.sh | bash
 echo -e "\e[1;7;32m[7/7]: FINISHED \e[m"
 sleep 1
 echo "================================================="
