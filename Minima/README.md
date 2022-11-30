@@ -1,4 +1,4 @@
-![image](https://incentive.minima.global/static/media/minima_logo.f132ac6f.svg)
+![image](http://astronode.tech/wp-content/uploads/2022/11/1500x5001111-1024x341.jpg)
 ### hardware
 
 | Minimal | spec |
