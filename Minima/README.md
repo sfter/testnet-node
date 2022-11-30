@@ -41,7 +41,8 @@ sudo curl -fsSL https://get.docker.com/ -o get-docker.sh
 <a href="https://ibb.co/yY6whCM"><img src="https://i.ibb.co/jWycVYx/download-3.png" alt="download-3" border="0" /></a><br>
 Give the script permissions and run the installer for docker - this will take a few minutes to finish:
 ```bash
-sudo
+sudo chmod +x ./get-docker.sh && ./get-docker.sh
+```
 ![image](https://docs.minima.global/assets/images/docker_vps_12installdocker-545446c5dd59f7b47198f47e009507f2.png) <br>
 Add the minima user to the Docker group:
 ```bash
