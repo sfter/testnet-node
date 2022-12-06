@@ -23,7 +23,7 @@ Explorer:
  - 200GB of storage (SSD or NVME)
  - Permanent Internet connection (traffic will be minimal during testnet; 10Mbps will be plenty - for production at least 100Mbps is expected)
 
-## Set up your source fullnode
+## Set up your Node 👇
 ### Automatic Script
 You can setup your source fullnode in few minutes by using automated script below. It will prompt you to input your validator node name!
 ```
