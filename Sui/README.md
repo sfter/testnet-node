@@ -179,12 +179,12 @@ sui --version
 
 Update sui version
 ```
-wget -qO update.sh https://raw.githubusercontent.com/nodexcapital/testnet/main/sui/tools/update.sh && chmod +x update.sh && ./update.sh
+wget -qO update.sh https://raw.githubusercontent.com/mggnet/testnet/main/Sui/update/update.sh && chmod +x update.sh && ./update.sh
 ```
 
 Update sui version with database cleanup
 ```
-wget -qO update_db_cleanup.sh https://raw.githubusercontent.com/nodexcapital/testnet/main/sui/tools/update_db_cleanup.sh && chmod +x update_db_cleanup.sh && ./update_db_cleanup.sh
+wget -qO update_db_cleanup.sh https://raw.githubusercontent.com/mggnet/testnet/main/Sui/update/update_db_cleanup.sh && chmod +x update_db_cleanup.sh && ./update_db_cleanup.sh
 ```
 
 ## Recover your keys
