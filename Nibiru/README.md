@@ -1,8 +1,8 @@
 <p align="center">
-  <img height="100" height="auto" src="https://user-images.githubusercontent.com/50621007/189353069-b9796464-574d-4903-b639-163fd0191ec9.png">
+  <img height="100" height="auto" src="https://user-images.githubusercontent.com/44331529/199216266-6b0da979-44a2-43e4-b9ef-de3a7c361b17.png">
 </p>
 
-# Source node setup for Testnet — sourcechain-testnet
+# Nibiru node setup for Testnet
 
 Thanks to:
 >- [NodeX](https://github.com/nodexcapital)
