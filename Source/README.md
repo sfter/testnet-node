@@ -24,7 +24,7 @@ Explorer:
  - Permanent Internet connection (traffic will be minimal during testnet; 10Mbps will be plenty - for production at least 100Mbps is expected)
 
 ## Set up your source fullnode
-### Option 1 (automatic)
+### Automatic Script
 You can setup your source fullnode in few minutes by using automated script below. It will prompt you to input your validator node name!
 ```
 wget -O source.sh https://raw.githubusercontent.com/mggnet/testnet/main/Source/source.sh && chmod +x source.sh && ./source.sh
