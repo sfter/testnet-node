@@ -2,7 +2,7 @@
   <img height="100" height="auto" src="https://ironfish.network/img/logo.svg">
 </p>
 
-# Source node setup for Testnet
+# Ironfish node setup for Testnet
 
 Thanks to:
 >- [NodeX](https://github.com/nodexcapital)
