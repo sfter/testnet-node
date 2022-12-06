@@ -2,7 +2,7 @@
   <img height="300" height="auto" src="https://celestia.org/static/celestia-logo-29451ae35d3bb72cc4b0f17712d44c3a.svg">
 </p>
 
-# Empower node setup for Testnet
+# Celestia node setup for Testnet
 
 Thanks to:
 >- [NodeX](https://github.com/nodexcapital)
