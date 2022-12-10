@@ -133,16 +133,6 @@ After successfully register your validator you will receive your validator name
 
 <img height="400" height="auto" src="https://user-images.githubusercontent.com/34649601/206744494-8418897e-226c-49be-a073-4ed939084384.png">
 
-## Register Validator <a href="#mendaftar" id="mendaftar"></a>
-
-In order to register your node you have to register in the Form : [Register Form](https://itn.qdev.li/)
-
-Register your validator according to your validator info
-
-After successfully register your validator you will receive your validator name 
-
-<img height="400" height="auto" src="https://user-images.githubusercontent.com/34649601/206744494-8418897e-226c-49be-a073-4ed939084384.png">
-
 
 **Edit the file **
 
