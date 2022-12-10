@@ -87,21 +87,30 @@ docker run --rm -v $PWD:/data -v $PWD/config.json:/build/config.json qblockchain
 
 <figure><img src="https://580801350-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyjqqGlG6vZEVZjseIV1U%2Fuploads%2Fm1m9bQOIH0G3TCr77hOp%2FScreenshot_6.png?alt=media&#x26;token=8b26db7a-d16c-4300-bd39-a296152a8c35" alt=""><figcaption></figcaption></figure>
 
-## Sign up <a href="#mendaftar" id="mendaftar"></a>
+## Register Validator <a href="#mendaftar" id="mendaftar"></a>
 
-**Edit the file first**
+In order to register your node you have to register in the Form : [Register Form](https://itn.qdev.li/)
+
+Register your validator according to your validator info
+
+After successfully register your validator you will receive your validator name 
+
+<img height="400" height="auto" src="https://user-images.githubusercontent.com/34649601/206744494-8418897e-226c-49be-a073-4ed939084384.png">
+
+
+**Edit the file **
 
 ```
 nano docker-compose.yaml
 ```
 
 > In the section after `"geth"` add
-
-&#x20;"--ethstats=NAME\_VALIDATOR:qstats-testnet@stats.qtestnet.org",​
-
+```
+"--ethstats=ITN-YOUR_VALIDATOR_NAME-YOUR_CODE_NAME:qstats-testnet@stats.qtestnet.org",​
+```
 > Example
 
-<figure><img src="https://580801350-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyjqqGlG6vZEVZjseIV1U%2Fuploads%2Fjy0ohmTYoDmNmwSwiE5o%2FScreenshot_9.png?alt=media&#x26;token=de977f52-300c-41ef-a4a1-d0860c79c239" alt=""><figcaption></figcaption></figure>
+<img height="450" height="auto" src="https://user-images.githubusercontent.com/34649601/206747640-e29e7f73-a549-416a-b52f-6a138f402212.png">
 
 ## Run NODE <a href="#jalankan-node" id="jalankan-node"></a>
 
