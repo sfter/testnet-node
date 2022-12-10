@@ -23,6 +23,23 @@ Incentive Form:
  - Permanent Internet connection (traffic will be minimal during testnet; 10Mbps will be plenty - for production at least 100Mbps is expected)
 
 ## Set up your Node 👇
+### Update
+```
+sudo apt update && \
+sudo apt upgrade
+```
+
+### Install Docker
+```
+sudo apt-get update && sudo apt install jq && sudo apt install apt-transport-https ca-certificates curl software-properties-common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt-get install docker-compose-plugin
+```
+`y` 
+
+### Install Docker Compose
+```
+apt install docker-compose
+```
+
 ### Automatic Script
 ```
 wget -O qblockchain.sh https://raw.githubusercontent.com/mggnet/testnet/main/QBlockchain/qblockchain.sh && chmod +x qblockchain.sh && ./qblockchain.sh
