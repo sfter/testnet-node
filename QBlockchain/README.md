@@ -108,6 +108,31 @@ docker run --rm -v $PWD:/data -v $PWD/config.json:/build/config.json qblockchain
 
 <figure><img src="https://580801350-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyjqqGlG6vZEVZjseIV1U%2Fuploads%2Fm1m9bQOIH0G3TCr77hOp%2FScreenshot_6.png?alt=media&#x26;token=8b26db7a-d16c-4300-bd39-a296152a8c35" alt=""><figcaption></figcaption></figure>
 
+# Export your private key to Metamask
+```
+cd testnet-public-tools
+chmod +x run-js-tools-in-docker.sh
+./run-js-tools-in-docker.sh
+npm install
+```
+```
+chmod +x extract-geth-private-key.js
+node extract-geth-private-key <WALLET_ADDRESS> ../testnet-validator/ $PASSWORD
+```
+Change `<WALLET_ADDRESS>` To your Wallet address
+
+After saving your private key exit the container `exit`
+
+# Registering Validator
+
+In order to register your node you have to register in the Form : [Register Form](https://itn.qdev.li/)
+
+Register your validator according to your validator info
+
+After successfully register your validator you will receive your validator name
+
+<img height="400" height="auto" src="https://user-images.githubusercontent.com/34649601/206744494-8418897e-226c-49be-a073-4ed939084384.png">
+
 ## Register Validator <a href="#mendaftar" id="mendaftar"></a>
 
 In order to register your node you have to register in the Form : [Register Form](https://itn.qdev.li/)
