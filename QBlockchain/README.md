@@ -73,14 +73,18 @@ Claim the faucet using your address: https://faucet.qtestnet.org/
 ## Edit .env <a href="#edit-.env" id="edit-.env"></a>
 
 nano .env
-
+>q-client:1.2.2
+>
 > Edit theADDRESS=Your address without 0x&#x20;
 >
 > IP=IP of your VPS
 >
-> Example:
+> EXT_PORT=30303
+>
 
-<figure><img src="https://580801350-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyjqqGlG6vZEVZjseIV1U%2Fuploads%2FkVPTziNWXkIbSME9kOuK%2FScreenshot_4.png?alt=media&#x26;token=25fd2f6b-a0dd-47e2-9075-7e27326bb5fa" alt=""><figcaption></figcaption></figure>
+Example:
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/8jQ6ygh/Capture.jpg" alt="Capture" border="0" /></a>
 
 Save
 
