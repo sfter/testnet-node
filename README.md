@@ -6,6 +6,7 @@ Also Check Auto Delegator i Posted
 >- [Auto Delegator Nibiru](https://github.com/mggnet/auto-delegate-nibiru)
 >- [Auto Delegator Loyal](https://github.com/mggnet/auto-delegate-loyal)
 >- [Auto Delegator Gitopia](https://github.com/mggnet/auto-delegate-gitopia)
+>- [Auto Delegator Humans](https://github.com/mggnet/auto-delegate-humans)
 
 Find Me on 👇 <br>
 Twitter : https://twitter.com/marketgogreen <br>
