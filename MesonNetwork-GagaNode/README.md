@@ -5,15 +5,14 @@
 # Meson Network node setup for Testnet
 >- Register : https://dashboard.gaganode.com/register?referral_code=bkdleeokqy
 
-### Set up your Node 👇
-
-## Go To Shell Console
-Link : https://shell.cloud.google.com/ <br><br>
+## 1️⃣ Go To Shell Console
+Link : https://shell.cloud.google.com/ <br>
+Login with Your Email <br><br>
 <img height="200" height="auto" src="https://i.ibb.co/TwCt1Fy/1.jpg" alt="1" border="0" /></a>
 ```python
 curl -o app-linux-amd64.tar.gz https://assets.coreservice.io/public/package/22/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-linux-amd64.tar.gz && rm -f app-linux-amd64.tar.gz && cd ./app-linux-amd64 && sudo ./app service install
 ```
-## Start APP
+## 2️⃣ Start APP
 <img height="200" height="auto" src="https://i.ibb.co/MMkdrSq/2.jpg" alt="1" border="0" /></a>
 ```python
 ./app
@@ -24,14 +23,15 @@ start
 ### ⚠ PLEASE WAIT 30 SEC ⚠
 After that u can <i>CRTL + C</i>
 
-## Set Up your Token
+## 3️⃣ Set Up your Token
 <img height="200" height="auto" src="https://i.ibb.co/qWrpbv9/3.jpg" alt="1" border="0" /></a>
 ```python
 ./apps/gaganode/gaganode config set --token=YOUR_TOKEN
 ```
-*Fill Node Token to <b><i>YOUR_TOKEN</i></b>
+*Fill Node Token to <b><i>YOUR_TOKEN</i></b> <br>
+U can find it here : https://dashboard.gaganode.com/install_run
 
-## Restart APP
+## 4️⃣ Restart APP
 <img height="200" height="auto" src="https://i.ibb.co/k2vyQtS/4.jpg" alt="1" border="0" /></a>
 ```python
 ./app
