@@ -157,3 +157,25 @@ docker compose logs -f
 [Q Network Status](https://stats.qtestnet.org/)
 
 #### ​ <a href="#undefined" id="undefined"></a>
+
+## Aditional Command
+### Check Node Running or Not
+```phyton
+docker container stats testnet-validator_testnet-validator-node_1
+```
+### Add Peers
+```phyton
+docker-compose exec testnet-validator-node geth attach /data/geth.ipc
+```
+
+```phyton
+admin.addPeer('enode://a3862c64d5d7e43f8cffce810d4ad00d20c2b34524df20be5c3e9a91f157a7ca532068e358e690453e3f339d5bdeab6a922d7a2a6243d4c89d4b64304360de1e@18.158.211.67:30303') 
+
+admin.addPeer('enode://a8f808a716c6235aca81197af4bd36b0505550c87ba09c2e2c2435b347e9a016ca40527d90fc5e8f8400d7bd7dbc1339a9c8f190c2a883c1f2dea6716e3213ff@92.169.114.234:30314')
+```
+
+### Restart Node
+```phyton
+systemctl restart docker
+docker-compose down && docker-compose up -d --remove-orphans
+```
